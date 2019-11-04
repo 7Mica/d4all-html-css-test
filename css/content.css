@@ -11,7 +11,7 @@
 
 .first-slider .contact-card {
   position: absolute;
-  height: 50%;
+  height: 65%;
   width: 100%;
   top: 20%;
 }
@@ -46,7 +46,7 @@
 }
 
 .first-slider .first-slider-image {
-  position: absolute;
+  position: relative;
   background-image: url('../images/header-image-2.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -118,56 +118,56 @@
   width: 100%;
   background-color: black;
   float: left;
-  height: 220rem;
+  height: 215rem;
 
 }
 
 .title-picture {
-  position: absolute;
+  position: relative;
   background-image: url('../images/camera-guy.png');
   background-size: cover;
   width: 90%;
-  height: 80%;
+  height: 42%;
   left: 5%;
   margin-top: 8%;
 }
 
-.third-slider h1 {
+.content-about {
+  position: relative;
+  top: 5%;
+}
+
+.content-about h1 {
   position: relative;
   color: white;
   margin-left: 6%;
-  top: 115rem;
   font-size: 5rem;
 }
 
-.content-about p {
-  font-size: 2.5rem;
-  color: white;
-}
-
-.content-about p:nth-child(1) {
+.first-p {
   text-align: justify;
   border-left: solid 1.5rem rgb(247, 171, 73);
   padding: 5%;
   margin: 7%;
-  position: relative;
-  top: 118rem;
 }
 
 .content-about p+p {
   text-align: justify;
   padding: 5%;
   margin: 2%;
-  position: relative;
-  top: 118rem;
+}
 
+.content-about p {
+  font-size: 2.5rem;
+  color: white;
+  position: relative;
 }
 
 .social-networks {
   position: relative;
   height: 20rem;
   width: 100%;
-  top: 52%;
+  bottom: -4%;
 }
 
 .facebook {
@@ -258,7 +258,7 @@
 */
 .fifth-slider {
   width: 100%;
-  height: 100%;
+  height: 125rem;
   background-color: #f7f7f7;
   float: left;
 
@@ -422,7 +422,7 @@
 
 .copy-section {
   position: absolute;
-  bottom: 25%;
+  bottom: 8%;
   text-align: center;
 }
 
