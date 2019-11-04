@@ -436,6 +436,10 @@
   text-indent: 2rem;
 }
 
+.news-letter {
+  margin-bottom: 20rem;
+}
+
 .btn-send {
   margin-top: 2rem;
   width: 28%;
