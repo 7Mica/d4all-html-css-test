@@ -13,7 +13,7 @@
   position: absolute;
   height: 65%;
   width: 100%;
-  top: 20%;
+  top: 18%;
 }
 
 .contact-card h1 {
@@ -36,7 +36,8 @@
 
 .contact-button {
   color: black;
-  width: 54%;
+  width: 66%;
+  letter-spacing: 0.6rem;
   height: 15%;
   font-size: 3.7rem;
   border-radius: 100px;
@@ -421,8 +422,8 @@
 }
 
 .copy-section {
-  position: absolute;
-  bottom: 8%;
+  position: relative;
+  bottom: 0;
   text-align: center;
 }
 
