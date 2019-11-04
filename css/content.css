@@ -118,7 +118,7 @@
   width: 100%;
   background-color: black;
   float: left;
-  height: 190rem;
+  height: 220rem;
 
 }
 
@@ -142,11 +142,11 @@
 
 .content-about p {
   font-size: 2.5rem;
+  color: white;
 }
 
 .content-about p:nth-child(1) {
   text-align: justify;
-  color: white;
   border-left: solid 1.5rem rgb(247, 171, 73);
   padding: 5%;
   margin: 7%;
@@ -154,9 +154,8 @@
   top: 118rem;
 }
 
-.content-about p:nth-child(2) {
+.content-about p+p {
   text-align: justify;
-  color: white;
   padding: 5%;
   margin: 2%;
   position: relative;
@@ -168,7 +167,7 @@
   position: relative;
   height: 20rem;
   width: 100%;
-  top: 60%;
+  top: 52%;
 }
 
 .facebook {
