@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body>div {
+  background-color: beige;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+/***************
+ * ANIMACIONES *
+ ***************/
+
+@keyframes barmovement {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: 67%;
+  }
+
+  100% {
+    left: 0;
+  }
+
+}
+
+/******************
+ * BARRA SUPERIOR *
+ ******************/
+
+body>div>div:nth-child(1) {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+
+}
+
+/******************
+ * BARRA INFERIOR *
+ ******************/
+
+body>div>div:nth-child(2) {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+
+}
+
+body>div>div:nth-child(1):hover {
+  transform: translate(400px, 0px);
+}
+
+body>div>div:nth-child(2) div:hover {
+  transform: translate(400px, 0px);
+}
+
+
+body>div>div:nth-child(1) {
+  transition: transform 2s ease-in-out;
+}
+
+body>div>div:nth-child(2) div {
+  transition: transform 2s ease-in-out;
+}
+
+/* CUADROS PEQUEÑOS  ARRIBA*/
+
+body>div>div:nth-child(1) div:nth-child(1) {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+
+}
+
+body>div>div:nth-child(1) div:nth-child(2) {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 66.7%;
+  z-index: 2;
+
+}
+
+/* CUADROS PEQUEÑOS  ABAJO*/
+
+body>div>div:nth-child(2) div:nth-child(1) {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+
+}
+
+body>div>div:nth-child(2) div:nth-child(2) {
+  background-color: cyan;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+
+}

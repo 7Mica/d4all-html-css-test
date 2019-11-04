@@ -1,0 +1,448 @@
+/**
+* First Slider & Inner Clases
+*/
+.first-slider {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  float: left;
+
+}
+
+.first-slider .contact-card {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 20%;
+}
+
+.contact-card h1 {
+  color: rgb(247, 171, 73);
+  font-size: 6rem;
+  padding-left: 7%;
+  padding-right: 7%;
+  line-height: 5.5rem;
+}
+
+.contact-card p {
+  max-width: 85%;
+  font-size: 3.7rem;
+  padding: 5%;
+  color: white;
+  line-height: 6rem;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.contact-button {
+  color: black;
+  width: 54%;
+  height: 15%;
+  font-size: 3.7rem;
+  border-radius: 100px;
+  margin: 7%;
+  background-color: rgb(247, 171, 73);
+  border-color: rgb(247, 171, 73);
+}
+
+.first-slider .first-slider-image {
+  position: absolute;
+  background-image: url('../images/header-image-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+}
+
+/**
+* Second Slider & Inner Clases
+*/
+.second-slider {
+  width: 100%;
+  background-color: white;
+  float: left;
+}
+
+.header-card {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.header-card h3 {
+  color: rgb(247, 171, 73);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.header-card h1 {
+  color: black;
+  font-size: 6.5rem;
+  text-align: center;
+}
+
+.content-pictures {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 5%;
+  margin: 0 auto;
+}
+
+.sample-picture {
+  width: 27rem;
+  height: 19rem;
+  background-color: gray;
+  float: left;
+  margin-left: 4%;
+  margin-bottom: 4%;
+  border-radius: 20px;
+}
+
+.sample-picture-large {
+  width: 27rem;
+  height: 38rem;
+  background-color: gray;
+  float: left;
+  margin-left: 4%;
+  margin-bottom: 4%;
+  border-radius: 20px;
+}
+
+/**
+* Third Slider & Inner Clases
+*/
+.third-slider {
+  width: 100%;
+  background-color: black;
+  float: left;
+  height: 190rem;
+
+}
+
+.title-picture {
+  position: absolute;
+  background-image: url('../images/camera-guy.png');
+  background-size: cover;
+  width: 90%;
+  height: 80%;
+  left: 5%;
+  margin-top: 8%;
+}
+
+.third-slider h1 {
+  position: relative;
+  color: white;
+  margin-left: 6%;
+  top: 115rem;
+  font-size: 5rem;
+}
+
+.content-about p {
+  font-size: 2.5rem;
+}
+
+.content-about p:nth-child(1) {
+  text-align: justify;
+  color: white;
+  border-left: solid 1.5rem rgb(247, 171, 73);
+  padding: 5%;
+  margin: 7%;
+  position: relative;
+  top: 118rem;
+}
+
+.content-about p:nth-child(2) {
+  text-align: justify;
+  color: white;
+  padding: 5%;
+  margin: 2%;
+  position: relative;
+  top: 118rem;
+
+}
+
+.social-networks {
+  position: relative;
+  height: 20rem;
+  width: 100%;
+  top: 60%;
+}
+
+.facebook {
+  left: 6%;
+  background-color: #3e3d3d;
+  border-radius: 100%;
+  height: 8rem;
+  width: 8rem;
+  position: absolute;
+  top: 30%;
+  font-size: 3.5rem;
+  color: rgb(247, 171, 73);
+}
+
+.facebook .icon {
+  top: 30%;
+  left: 37%;
+  position: absolute;
+}
+
+.instagram {
+  left: 20%;
+  background-color: #3e3d3d;
+  border-radius: 100%;
+  height: 8rem;
+  width: 8rem;
+  position: absolute;
+  top: 30%;
+  font-size: 3.5rem;
+  color: rgb(247, 171, 73);
+
+}
+
+.instagram .icon {
+  top: 30%;
+  left: 32%;
+  position: absolute;
+}
+
+.twitter {
+  left: 34%;
+  background-color: #3e3d3d;
+  border-radius: 100%;
+  height: 8rem;
+  width: 8rem;
+  position: absolute;
+  top: 30%;
+  font-size: 3.5rem;
+  color: rgb(247, 171, 73);
+
+}
+
+.twitter .icon {
+  top: 30%;
+  left: 30%;
+  position: absolute;
+}
+
+
+/**
+* Fourth Slider & Inner Clases
+*/
+.fourth-slider {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  float: left;
+
+}
+
+.video-card {
+  width: 100%;
+  height: 40%;
+}
+
+.video-image {
+  position: absolute;
+  width: 90%;
+  background-repeat: no-repeat;
+  height: 30%;
+  left: 5%;
+  background-image: url('../images/video-image.png');
+  background-size: cover;
+}
+
+/**
+* Fifth Slider & Inner Clases
+*/
+.fifth-slider {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+  float: left;
+
+}
+
+.content-reviews {
+  position: relative;
+  width: 100%;
+  height: 82%;
+}
+
+.fifth-slider .each-review:nth-child(1) {
+  margin-top: 5%;
+}
+
+.each-review {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+
+.stars {
+  color: rgb(247, 171, 73);
+  font-size: 3rem;
+}
+
+.each-review h2 {
+  font-size: 3rem;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.each-review p {
+  font-size: 2rem;
+  line-height: 5rem;
+}
+
+/**
+* Sixth Slider & Inner Clases
+*/
+.sixth-slider {
+  width: 100%;
+  height: 255rem;
+  background-color: white;
+  float: left;
+}
+
+.events-content {
+  width: 100%;
+  height: 230rem;
+}
+
+.each-event {
+  width: 100%;
+  height: 34%;
+}
+
+.image-event {
+  width: 92%;
+  height: 60%;
+  margin-left: 4%;
+  margin-right: 4%;
+  background-color: gray;
+}
+
+.img1 {
+  background-image: url('../images/event-image2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img2 {
+  background-image: url('../images/event-image3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url('../images/event-image1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event-title {
+  font-size: 3.3rem;
+  width: 90%;
+  height: 12%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 4%;
+}
+
+.event-author {
+  position: relative;
+  top: -1rem;
+  margin-left: 10%;
+  margin-right: 4%;
+  font-size: 2rem;
+}
+
+.event-date {
+  color: gray;
+}
+
+.event-date-author {
+  color: rgb(247, 171, 73);
+}
+
+
+.event-text {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 4%;
+  font-size: 2rem;
+}
+
+/**
+* Footer
+*/
+
+.footer {
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  float: left;
+  font-size: 2.5rem;
+}
+
+.footer-content {
+  position: absolute;
+  left: 5%;
+  color: white;
+  height: 100%;
+}
+
+.section-title {
+  margin-top: 10%;
+}
+
+.about-body {
+  width: 95%;
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+.links-list ul {
+  list-style-type: none;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  color: gray;
+}
+
+.links-list ul a:active,
+.links-list ul a:link,
+.links-list ul a:visited,
+.links-list ul a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.copy-section {
+  position: absolute;
+  bottom: 25%;
+  text-align: center;
+}
+
+.newsletter-form input {
+  margin-top: 2rem;
+  width: 57%;
+  height: 8rem;
+  border-radius: 20px;
+  font-size: 4rem;
+  text-indent: 2rem;
+}
+
+.btn-send {
+  margin-top: 2rem;
+  width: 28%;
+  height: 8rem;
+  border-radius: 58px;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  background-color: rgb(247, 171, 73);
+
+}
