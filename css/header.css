@@ -88,88 +88,30 @@
 }
 
 /* 
-  * Device = Tablets, Ipads (landscape)
-  * Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .brand {
-    position: absolute;
-    color: white;
-    font-family: Helveltica;
-    font-size: 0.5rem;
-    top: 32%;
-    letter-spacing: 0.2rem;
-    left: 8%;
-  }
-
-  .menu {
-    visibility: hidden;
-  }
-
-  .inline-menu {
-    width: 45%;
-    top: 32%;
-    position: absolute;
-    right: 2%;
-    color: white;
-    font-size: 0.8rem;
-  }
-
-  .inline-menu a {
-    margin-left: 5%;
-  }
-
-}
-
-/* 
   * Device = Most of the Smartphones Mobiles (Portrait)
   * Screen = B/w 320px to 479px
 */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
+  
   .brand {
     position: absolute;
     color: white;
     font-family: Helveltica;
-    font-size: 2.5rem;
-    top: 35%;
-    letter-spacing: 0.2rem;
-    left: 8%;
+    font-size: 15px;
+    top: 50px;
+    letter-spacing: 2px;
+    left: 30px;
   }
 
   .menu {
     position: absolute;
-    width: 10%;
-    height: 10%;
     color: white;
-    font-size: 5rem;
-    right: 7%;
-    top: 35%;
-  }
-}
-
-/* 
-  * Device = Low Resolution Tablets, Mobiles (Landscape)
-  * Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-  .brand {
-    position: absolute;
-    color: white;
-    font-family: Helveltica;
-    font-size: 2.5rem;
-    top: 35%;
-    letter-spacing: 0.2rem;
-    left: 8%;
+    font-size: 28px;
+    right: 34px;
+    top: 50px;
   }
 
-  .menu {
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    color: white;
-    font-size: 5rem;
-    right: 7%;
-    top: 35%;
+  .inline-menu {
+    visibility: hidden;
   }
 }

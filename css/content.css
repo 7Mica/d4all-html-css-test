@@ -42,7 +42,6 @@
     padding: 2%;
     color: white;
     line-height: 1rem;
-    text-align: justify;
     margin: 0 auto;
     position: relative;
   }
@@ -55,7 +54,6 @@
     padding: 2%;
     color: white;
     line-height: 1.5rem;
-    text-align: justify;
     margin-left: 5%;
   }
 
@@ -168,199 +166,52 @@
   }
 }
 
-/* 
-  * Device = Tablets, Ipads (landscape)
-  * Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .first-slider {
-    width: 100%;
-    height: 80%;
-    background-color: black;
-    float: left;
-  }
-
-  /*
-  + Esta clase falta hacer en la parte móvil
-  */
-  .contact-card {
-    position: relative;
-    height: 100%;
-  }
-
-  .contact-card h1 {
-    max-width: 40%;
-    top: 30%;
-    color: rgb(247, 171, 73);
-    font-size: 2rem;
-    position: relative;
-    padding-left: 7%;
-    padding-right: 7%;
-    line-height: 2.5rem;
-  }
-
-  .contact-card p:nth-child(1) {
-    top: 33%;
-    max-width: 85%;
-    font-size: 1rem;
-    padding: 2%;
-    color: white;
-    line-height: 1rem;
-    text-align: justify;
-    margin: 0 auto;
-    position: relative;
-  }
-
-  .contact-card p:nth-child(3) {
-    max-width: 60%;
-    position: relative;
-    top: 28%;
-    font-size: 1rem;
-    padding: 2%;
-    color: white;
-    line-height: 1.5rem;
-    text-align: justify;
-    margin-left: 5%;
-  }
-
-  .contact-button {
-    position: relative;
-    top: 10rem;
-    color: black;
-    width: 17%;
-    letter-spacing: 0.3rem;
-    height: 8%;
-    font-size: 0.7rem;
-    border-radius: 100px;
-    margin-left: 7%;
-    background-color: rgb(247, 171, 73);
-    border-color: rgb(247, 171, 73);
-  }
-
-  .first-slider .first-slider-image {
-    position: absolute;
-    background-image: url('../images/header-image-2.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.7;
-    height: 80%;
-    width: 100%;
-  }
-}
-
-/* 
-  * Device = Low Resolution Tablets, Mobiles (Portrait)
-  * Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-  .first-slider {
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    float: left;
-
-  }
-
-  .first-slider .contact-card {
-    position: absolute;
-    height: 65%;
-    width: 100%;
-    top: 18%;
-  }
-
-  .contact-card h1 {
-    color: rgb(247, 171, 73);
-    font-size: 6rem;
-    padding-left: 7%;
-    padding-right: 7%;
-    line-height: 5.5rem;
-  }
-
-  .contact-card p {
-    max-width: 85%;
-    font-size: 3.7rem;
-    padding: 5%;
-    color: white;
-    line-height: 6rem;
-    text-align: justify;
-    margin: 0 auto;
-  }
-
-  .contact-button {
-    color: black;
-    width: 66%;
-    letter-spacing: 0.6rem;
-    height: 15%;
-    font-size: 3.7rem;
-    border-radius: 100px;
-    margin: 7%;
-    background-color: rgb(247, 171, 73);
-    border-color: rgb(247, 171, 73);
-  }
-
-  .first-slider .first-slider-image {
-    position: relative;
-    background-image: url('../images/header-image-2.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.7;
-    height: 100%;
-    width: 100%;
-  }
-}
 
 /* 
   * Device = Most of the Smartphones Mobiles (Portrait)
   * Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
+
   .first-slider {
     width: 100%;
     height: 100%;
     background-color: black;
-    float: left;
 
   }
 
   .first-slider .contact-card {
     position: absolute;
-    height: 65%;
-    width: 100%;
-    top: 18%;
+    top: 145px;
   }
 
   .contact-card h1 {
     color: rgb(247, 171, 73);
-    font-size: 6rem;
-    padding-left: 7%;
-    padding-right: 7%;
-    line-height: 5.5rem;
+    font-size: 35px;
+    line-height: 40px;
+    margin: 15px 0px 0 15px;
   }
 
   .contact-card p {
-    max-width: 85%;
-    font-size: 3.7rem;
-    padding: 5%;
+    max-width: 305px;
+    font-size: 18px;
     color: white;
-    line-height: 6rem;
-    text-align: justify;
-    margin: 0 auto;
+    line-height: 30px;
+    margin: 5px 15px 0 15px
   }
 
   .contact-button {
     color: black;
-    width: 66%;
-    letter-spacing: 0.6rem;
-    height: 15%;
-    font-size: 3.7rem;
+    width: 155px;
+    letter-spacing: 2.5px;
+    height: 40px;
+    font-size: 15px;
+
     border-radius: 100px;
-    margin: 7%;
+    margin: 25px 0 0 15px;
     background-color: rgb(247, 171, 73);
-    border-color: rgb(247, 171, 73);
+    border-color: rgb(0, 0, 0, 0);
   }
 
   .first-slider .first-slider-image {
@@ -494,182 +345,62 @@
 }
 
 /* 
-  * Device = Tablets, Ipads (landscape)
-  * Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .second-slider {
-    width: 100%;
-    background-color: white;
-    float: left;
-  }
-
-  .header-card {
-    width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-
-  .header-card h3 {
-    color: rgb(247, 171, 73);
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .header-card h1 {
-    color: black;
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  .content-pictures {
-    width: 90%;
-    height: 100%;
-    position: relative;
-    top: 5%;
-    margin: 0 auto;
-  }
-
-  .sample-picture {
-    width: 30%;
-    height: 18rem;
-    background-color: gray;
-    float: left;
-    margin-left: 2%;
-    margin-bottom: 2%;
-  }
-
-  .sample-picture-large {
-    width: 30%;
-    height: 24rem;
-    background-color: gray;
-    float: left;
-    margin-left: 2%;
-    margin-bottom: 4%;
-  }
-}
-
-/* 
   * Device = Most of the Smartphones Mobiles (Portrait)
   * Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
   .second-slider {
     width: 100%;
     background-color: white;
-    float: left;
   }
 
   .header-card {
-    width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    margin-top: 55px;
+    margin-bottom: 55px;
   }
 
   .header-card h3 {
     color: rgb(247, 171, 73);
-    font-size: 3rem;
+    font-size: 20px;
     text-align: center;
   }
 
   .header-card h1 {
     color: black;
-    font-size: 6.5rem;
+    font-size: 40px;
     text-align: center;
   }
 
   .content-pictures {
-    width: 100%;
+    width: 80%;
     height: 100%;
     position: relative;
     top: 5%;
-    margin: 0 auto;
+    margin-left: 10%;
   }
 
   .sample-picture {
-    width: 27rem;
-    height: 19rem;
+    width: 40%;
+    height: 8rem;
+    border-radius: 10px;
     background-color: gray;
     float: left;
-    margin-left: 4%;
-    margin-bottom: 4%;
-    border-radius: 20px;
+    margin: 5%;
   }
 
   .sample-picture-large {
-    width: 27rem;
-    height: 38rem;
+    width: 40%;
+    height: 17rem;
+    border-radius: 10px;
     background-color: gray;
     float: left;
-    margin-left: 4%;
-    margin-bottom: 4%;
-    border-radius: 20px;
+    margin: 5%;
   }
 
 }
 
-/* 
-  * Device = Low Resolution Tablets, Mobiles (Landscape)
-  * Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-
-  .second-slider {
-    width: 100%;
-    background-color: white;
-    float: left;
-  }
-
-  .header-card {
-    width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-
-  .header-card h3 {
-    color: rgb(247, 171, 73);
-    font-size: 3rem;
-    text-align: center;
-  }
-
-  .header-card h1 {
-    color: black;
-    font-size: 6.5rem;
-    text-align: center;
-  }
-
-  .content-pictures {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 5%;
-    margin: 0 auto;
-  }
-
-  .sample-picture {
-    width: 27rem;
-    height: 19rem;
-    background-color: gray;
-    float: left;
-    margin-left: 4%;
-    margin-bottom: 4%;
-    border-radius: 20px;
-  }
-
-  .sample-picture-large {
-    width: 27rem;
-    height: 38rem;
-    background-color: gray;
-    float: left;
-    margin-left: 4%;
-    margin-bottom: 4%;
-    border-radius: 20px;
-  }
-
-}
 
 /*
 ? Third Slider & Inner Clases
@@ -886,159 +617,52 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .third-slider {
-    width: 100%;
-    background-color: black;
-    float: left;
-    height: 125%;
-
-  }
-
-  .title-picture {
-    float: left;
-    background-image: url('../images/camera-guy.png');
-    background-size: cover;
-    width: 41%;
-    height: 73%;
-    left: 5%;
-    margin-top: 8%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .content-about {
-    position: relative;
-    margin-top: 20%;
-  }
-
-  .content-about h1 {
-    position: relative;
-    color: white;
-    margin-left: 6%;
-    margin-bottom: 5%;
-    font-size: 1.5rem;
-  }
-
-  .content-about p:nth-child(2) {
-    text-align: justify;
-    padding-left: 3%;
-    margin-left: 61%;
-    margin-right: 5%;
-    border-left-color: rgb(247, 171, 73);
-    border-left-style: solid;
-  }
-
-  .content-about p+p {
-    text-align: justify;
-    padding-left: 5%;
-    margin: 2%;
-    margin-right: 5%;
-  }
-
-  .content-about p {
-    font-size: 0.9rem;
-    color: white;
-    position: relative;
-  }
-
-
-
-  .social {
-    height: 2rem;
-    width: 2rem;
-    position: absolute;
-    font-size: 0.9rem;
-    margin-left: 55%;
-    border-radius: 100%;
-    background-color: #3e3d3d;
-    color: rgb(247, 171, 73);
-  }
-
-  .facebook {
-    left: 6%;
-  }
-
-  .facebook .icon {
-    top: 30%;
-    left: 37%;
-    position: absolute;
-  }
-
-  .instagram {
-    left: 12%;
-  }
-
-  .instagram .icon {
-    top: 30%;
-    left: 32%;
-    position: absolute;
-  }
-
-  .twitter {
-    left: 18%;
-
-  }
-
-  .twitter .icon {
-    top: 30%;
-    left: 30%;
-    position: absolute;
-  }
-}
-
 /* 
   * Device = Most of the Smartphones Mobiles (Portrait)
   * Screen = B/w 320px to 479px
 */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
+
   .third-slider {
     width: 100%;
     background-color: black;
     float: left;
-    height: 215rem;
-
   }
 
   .title-picture {
-    position: relative;
     background-image: url('../images/camera-guy.png');
     background-size: cover;
-    width: 90%;
-    height: 42%;
-    left: 5%;
-    margin-top: 8%;
+    width: 310px;
+    height: 520px;
+    margin: 50px auto;
   }
 
   .content-about {
-    position: relative;
-    top: 5%;
+    margin-top: 50px;
   }
 
   .content-about h1 {
-    position: relative;
     color: white;
-    margin-left: 6%;
-    font-size: 5rem;
+    margin-left: 25px;
+    font-size: 35px;
   }
 
   .first-p {
     text-align: justify;
-    border-left: solid 1.5rem rgb(247, 171, 73);
-    padding: 5%;
-    margin: 7%;
+    border-left: solid 9px rgb(247, 171, 73);
+    padding: 20px;
+    margin: 30px;
   }
 
   .content-about p+p {
     text-align: justify;
-    padding: 5%;
-    margin: 2%;
+    padding: 20px;
+    margin: 10px;
   }
 
   .content-about p {
-    font-size: 2.5rem;
+    font-size: 15px;
     color: white;
-    position: relative;
   }
 
   .social-networks {
@@ -1049,177 +673,43 @@
   }
 
   .facebook {
-    left: 6%;
     background-color: #3e3d3d;
     border-radius: 100%;
-    height: 8rem;
-    width: 8rem;
-    position: absolute;
-    top: 30%;
-    font-size: 3.5rem;
-    color: rgb(247, 171, 73);
-  }
-
-  .facebook .icon {
-    top: 30%;
-    left: 37%;
-    position: absolute;
-  }
-
-  .instagram {
-    left: 20%;
-    background-color: #3e3d3d;
-    border-radius: 100%;
-    height: 8rem;
-    width: 8rem;
-    position: absolute;
-    top: 30%;
-    font-size: 3.5rem;
-    color: rgb(247, 171, 73);
-
-  }
-
-  .instagram .icon {
-    top: 30%;
-    left: 32%;
-    position: absolute;
-  }
-
-  .twitter {
-    left: 34%;
-    background-color: #3e3d3d;
-    border-radius: 100%;
-    height: 8rem;
-    width: 8rem;
-    position: absolute;
-    top: 30%;
-    font-size: 3.5rem;
-    color: rgb(247, 171, 73);
-
-  }
-
-  .twitter .icon {
-    top: 30%;
-    left: 30%;
-    position: absolute;
-  }
-}
-
-/* 
-  * Device = Low Resolution Tablets, Mobiles (Landscape)
-  * Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-  .third-slider {
-    width: 100%;
-    background-color: black;
+    height: 50px;
     float: left;
-    height: 215rem;
-
-  }
-
-  .title-picture {
-    position: relative;
-    background-image: url('../images/camera-guy.png');
-    background-size: cover;
-    width: 90%;
-    height: 42%;
-    left: 5%;
-    margin-top: 8%;
-  }
-
-  .content-about {
-    position: relative;
-    top: 5%;
-  }
-
-  .content-about h1 {
-    position: relative;
-    color: white;
-    margin-left: 6%;
-    font-size: 5rem;
-  }
-
-  .first-p {
-    text-align: justify;
-    border-left: solid 1.5rem rgb(247, 171, 73);
-    padding: 5%;
-    margin: 7%;
-  }
-
-  .content-about p+p {
-    text-align: justify;
-    padding: 5%;
-    margin: 2%;
-  }
-
-  .content-about p {
-    font-size: 2.5rem;
-    color: white;
-    position: relative;
-  }
-
-  .social-networks {
-    position: relative;
-    height: 20rem;
-    width: 100%;
-    bottom: -4%;
-  }
-
-  .facebook {
-    left: 6%;
-    background-color: #3e3d3d;
-    border-radius: 100%;
-    height: 8rem;
-    width: 8rem;
-    position: absolute;
-    top: 30%;
-    font-size: 3.5rem;
+    margin-bottom: 35px;
+    margin-left: 25px;
+    width: 50px;
+    font-size: 25px;
     color: rgb(247, 171, 73);
   }
 
-  .facebook .icon {
-    top: 30%;
-    left: 37%;
-    position: absolute;
+  .icon {
+    position: relative;
+    top: 7px;
+    left: 12px;
   }
 
   .instagram {
-    left: 20%;
+    float: left;
     background-color: #3e3d3d;
     border-radius: 100%;
-    height: 8rem;
-    width: 8rem;
-    position: absolute;
-    top: 30%;
-    font-size: 3.5rem;
+    height: 50px;
+    margin-left: 25px;
+    width: 50px;
+    font-size: 25px;
     color: rgb(247, 171, 73);
-
-  }
-
-  .instagram .icon {
-    top: 30%;
-    left: 32%;
-    position: absolute;
   }
 
   .twitter {
-    left: 34%;
+    float: left;
     background-color: #3e3d3d;
     border-radius: 100%;
-    height: 8rem;
-    width: 8rem;
-    position: absolute;
-    top: 30%;
-    font-size: 3.5rem;
+    height: 50px;
+    margin-left: 25px;
+    width: 50px;
+    font-size: 25px;
     color: rgb(247, 171, 73);
-
-  }
-
-  .twitter .icon {
-    top: 30%;
-    left: 30%;
-    position: absolute;
   }
 }
 
@@ -1285,92 +775,26 @@
 }
 
 /* 
-  * Device = Tablets, Ipads (landscape)
-  * Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  .fourth-slider {
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    float: left;
-  }
-
-  .video-card {
-    width: 70%;
-    height: 70%;
-  }
-
-  .video-image {
-    position: absolute;
-    width: 60%;
-    background-repeat: no-repeat;
-    height: 54%;
-    margin-left: 20%;
-    background-image: url('../images/video-image.png');
-    background-size: cover
-  }
-
-}
-
-/* 
   * Device = Most of the Smartphones Mobiles (Portrait)
   * Screen = B/w 320px to 479px
 */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .fourth-slider {
     width: 100%;
-    height: 50%;
+    height: 65%;
     background-color: white;
     float: left;
 
   }
 
-  .video-card {
-    width: 100%;
-    height: 40%;
-  }
-
   .video-image {
-    position: absolute;
-    width: 90%;
+    width: 300px;
+    height: 200px;
     background-repeat: no-repeat;
-    height: 30%;
-    left: 5%;
     background-image: url('../images/video-image.png');
     background-size: cover;
-  }
+    margin: 0 auto;
 
-}
-
-/* 
-  * Device = Low Resolution Tablets, Mobiles (Landscape)
-  * Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-  .fourth-slider {
-    width: 100%;
-    height: 50%;
-    background-color: white;
-    float: left;
-
-  }
-
-  .video-card {
-    width: 100%;
-    height: 40%;
-  }
-
-  .video-image {
-    position: absolute;
-    width: 90%;
-    background-repeat: no-repeat;
-    height: 30%;
-    left: 5%;
-    background-image: url('../images/video-image.png');
-    background-size: cover;
   }
 
 }
@@ -1468,138 +892,51 @@
 }
 
 /* 
-  * Device = Tablets, Ipads (landscape)
-  * Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .fifth-slider {
-    width: 100%;
-    height: 75%;
-    background-color: #f7f7f7;
-    float: left;
-
-  }
-
-  .content-reviews {
-    position: relative;
-    width: 100%;
-    height: 50%;
-  }
-
-  .each-review {
-    width: 28%;
-    margin-left: 5%;
-    float: left;
-  }
-
-  .stars {
-    color: rgb(247, 171, 73);
-    font-size: 0.8rem;
-    margin-bottom: 5%;
-  }
-
-  .each-review h2 {
-    font-size: 1rem;
-    margin-bottom: 5%;
-  }
-
-  .each-review p {
-    font-size: 1rem;
-    line-height: 2rem;
-    font-style: italic;
-
-  }
-
-}
-
-/* 
   * Device = Most of the Smartphones Mobiles (Portrait)
   * Screen = B/w 320px to 479px
 */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
+
   .fifth-slider {
     width: 100%;
-    height: 75%;
     background-color: #f7f7f7;
     float: left;
-
   }
 
   .content-reviews {
     position: relative;
     width: 100%;
-    height: 50%;
   }
 
   .each-review {
-    margin-left: 5%;
-    width: 28%;
-    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
   }
 
   .stars {
     color: rgb(247, 171, 73);
-    font-size: 0.8rem;
-    margin-bottom: 5%;
+    font-size: 15px;
+    margin-bottom: 15px;
   }
 
   .each-review h2 {
-    font-size: 1rem;
-    margin-bottom: 5%;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .each-review h4 {
+    margin-top: 15px;
   }
 
   .each-review p {
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 16px;
+    line-height: 30px;
     font-style: italic;
 
   }
 }
 
-/* 
-  * Device = Low Resolution Tablets, Mobiles (Landscape)
-  * Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-  .fifth-slider {
-    width: 100%;
-    height: 75%;
-    background-color: #f7f7f7;
-    float: left;
-
-  }
-
-  .content-reviews {
-    position: relative;
-    width: 100%;
-    height: 50%;
-  }
-
-  .each-review {
-    margin-left: 5%;
-    width: 28%;
-    float: left;
-  }
-
-  .stars {
-    color: rgb(247, 171, 73);
-    font-size: 0.8rem;
-    margin-bottom: 5%;
-  }
-
-  .each-review h2 {
-    font-size: 1rem;
-    margin-bottom: 5%;
-  }
-
-  .each-review p {
-    font-size: 1rem;
-    line-height: 2rem;
-    font-style: italic;
-
-  }
-}
 
 /*
 ? Sixth Slider & Inner Clases
@@ -1775,117 +1112,25 @@
 }
 
 /* 
-  * Device = Tablets, Ipads (landscape)
-  * Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .sixth-slider {
-    width: 100%;
-    height: 110%;
-    background-color: white;
-    float: left;
-  }
-
-  .events-content {
-    width: 100%;
-    height: 100%;
-  }
-
-  .each-event {
-    width: 33%;
-    height: 50%;
-    float: left;
-  }
-
-  .image-event {
-    width: 92%;
-    height: 60%;
-    margin-left: 4%;
-    margin-right: 4%;
-    background-color: gray;
-  }
-
-  .img1 {
-    background-image: url('../images/event-image2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .img2 {
-    background-image: url('../images/event-image3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .img3 {
-    background-image: url('../images/event-image1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .event-title {
-    font-size: 1.3rem;
-    width: 90%;
-    height: 12%;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 4%;
-  }
-
-  .event-author {
-    position: relative;
-    margin-top: 1%;
-    margin-left: 10%;
-    margin-right: 4%;
-    font-size: 1rem;
-  }
-
-  .event-date {
-    color: #d9d9d9;
-  }
-
-  .event-date-author {
-    color: rgb(247, 171, 73);
-  }
-
-  .event-text {
-    position: relative;
-    margin-top: 4%;
-    margin-left: 10%;
-    margin-right: 4%;
-    font-size: 1rem;
-    color: #aeaeae;
-  }
-}
-
-/* 
   * Device = Most of the Smartphones Mobiles (Portrait)
   * Screen = B/w 320px to 479px
 */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .sixth-slider {
     width: 100%;
-    height: 255rem;
     background-color: white;
     float: left;
   }
 
-  .events-content {
-    width: 100%;
-    height: 230rem;
-  }
-
   .each-event {
-    width: 100%;
-    height: 34%;
+    margin-bottom: 10%;
   }
 
   .image-event {
-    width: 92%;
-    height: 60%;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin: 0 auto;
+    width: 310px;
+    margin-bottom: 30px;
+    height: 230px;
     background-color: gray;
   }
 
@@ -1908,20 +1153,16 @@
   }
 
   .event-title {
-    font-size: 3.3rem;
-    width: 90%;
-    height: 12%;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 4%;
+    font-size: 20px;
+    margin-bottom: 35px;
+    margin-left: 50px;
   }
 
   .event-author {
     position: relative;
-    top: -1rem;
-    margin-left: 10%;
-    margin-right: 4%;
-    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    font-size: 15px;
   }
 
   .event-date {
@@ -1934,96 +1175,14 @@
 
 
   .event-text {
-    position: relative;
-    margin-left: 10%;
-    margin-right: 4%;
-    font-size: 2rem;
+    margin-left: 50px;
+    margin-right: 40px;
+    font-size: 15px;
+    line-height: 25px;
   }
 
 }
 
-/* 
-  * Device = Low Resolution Tablets, Mobiles (Landscape)
-  * Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-  .sixth-slider {
-    width: 100%;
-    height: 255rem;
-    background-color: white;
-    float: left;
-  }
-
-  .events-content {
-    width: 100%;
-    height: 230rem;
-  }
-
-  .each-event {
-    width: 100%;
-    height: 34%;
-  }
-
-  .image-event {
-    width: 92%;
-    height: 60%;
-    margin-left: 4%;
-    margin-right: 4%;
-    background-color: gray;
-  }
-
-  .img1 {
-    background-image: url('../images/event-image2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .img2 {
-    background-image: url('../images/event-image3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .img3 {
-    background-image: url('../images/event-image1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .event-title {
-    font-size: 3.3rem;
-    width: 90%;
-    height: 12%;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 4%;
-  }
-
-  .event-author {
-    position: relative;
-    top: -1rem;
-    margin-left: 10%;
-    margin-right: 4%;
-    font-size: 2rem;
-  }
-
-  .event-date {
-    color: gray;
-  }
-
-  .event-date-author {
-    color: rgb(247, 171, 73);
-  }
-
-
-  .event-text {
-    position: relative;
-    margin-left: 10%;
-    margin-right: 4%;
-    font-size: 2rem;
-  }
-
-}
 
 /*
 ? Footer
@@ -2206,130 +1365,39 @@
 }
 
 /* 
-  * Device = Tablets, Ipads (landscape)
-  * Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  .footer {
-    bottom: 0;
-    background-color: black;
-    width: 100%;
-    height: 80%;
-    float: left;
-  }
-
-  .footer-content {
-    position: relative;
-    color: white;
-    height: 100%;
-    margin-left: 5%;
-    font-size: 1rem;
-  }
-
-  .footer-about {
-    width: 30%;
-    float: left;
-  }
-
-  .section-title {
-    margin-top: 10%;
-  }
-
-  .about-body {
-    width: 95%;
-    margin-top: 2rem;
-  }
-
-  .quick-links {
-    float: left;
-    width: 30%;
-  }
-
-  .links-list ul {
-    list-style-type: none;
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
-    color: gray;
-  }
-
-  .links-list ul a:active,
-  .links-list ul a:link,
-  .links-list ul a:visited,
-  .links-list ul a:hover {
-    text-decoration: none;
-    color: gray;
-  }
-
-  .news-letter {
-    width: 30%;
-    float: left;
-  }
-
-  .newsletter-form input {
-    margin-top: 2rem;
-    width: 60%;
-    height: 3rem;
-    border-radius: 15px;
-    font-size: 1rem;
-    text-indent: 2rem;
-    border-color: rgba(0, 0, 0, 0);
-  }
-
-  .btn-send {
-    margin-top: 2rem;
-    width: 28%;
-    height: 3rem;
-    border-radius: 20px;
-    font-size: 1rem;
-    background-color: rgb(247, 171, 73);
-    border-color: rgba(0, 0, 0, 0);
-  }
-
-  .copy-section {
-    position: absolute;
-    bottom: 25%;
-    margin-left: 16%;
-    text-align: center;
-  }
-}
-
-/* 
   * Device = Most of the Smartphones Mobiles (Portrait)
   * Screen = B/w 320px to 479px
 */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
+
   .footer {
     bottom: 0;
     background-color: black;
     width: 100%;
     height: 100%;
     float: left;
-    font-size: 2.5rem;
+    font-size: 15px;
   }
 
   .footer-content {
-    position: absolute;
-    left: 5%;
+    width: 310px;
+    margin: 0 auto;
     color: white;
-    height: 100%;
   }
 
   .section-title {
-    margin-top: 10%;
+    margin-top: 25px;
   }
 
   .about-body {
-    width: 95%;
-    margin-top: 2rem;
+    margin-top: 25px;
     text-align: justify;
   }
 
   .links-list ul {
     list-style-type: none;
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
+    margin-top: 10px;
+    margin-left: 10px;
     color: gray;
   }
 
@@ -2342,111 +1410,27 @@
   }
 
   .copy-section {
-    position: relative;
-    bottom: 0;
-    text-align: center;
-  }
-
-  .newsletter-form input {
-    margin-top: 2rem;
-    width: 57%;
-    height: 8rem;
-    border-radius: 20px;
-    font-size: 4rem;
-    text-indent: 2rem;
-  }
-
-  .news-letter {
-    margin-bottom: 20rem;
-  }
-
-  .btn-send {
-    margin-top: 2rem;
-    width: 28%;
-    height: 8rem;
-    border-radius: 58px;
-    font-size: 2rem;
-    letter-spacing: 1rem;
-    background-color: rgb(247, 171, 73);
-
-  }
-
-}
-
-/* 
-  * Device = Low Resolution Tablets, Mobiles (Landscape)
-  * Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-  .footer {
-    bottom: 0;
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    float: left;
-    font-size: 2.5rem;
-  }
-
-  .footer-content {
-    position: absolute;
-    left: 5%;
-    color: white;
-    height: 100%;
-  }
-
-  .section-title {
     margin-top: 10%;
-  }
-
-  .about-body {
-    width: 95%;
-    margin-top: 2rem;
-    text-align: justify;
-  }
-
-  .links-list ul {
-    list-style-type: none;
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
-    color: gray;
-  }
-
-  .links-list ul a:active,
-  .links-list ul a:link,
-  .links-list ul a:visited,
-  .links-list ul a:hover {
-    text-decoration: none;
-    color: gray;
-  }
-
-  .copy-section {
-    position: relative;
-    bottom: 0;
     text-align: center;
   }
 
   .newsletter-form input {
-    margin-top: 2rem;
-    width: 57%;
-    height: 8rem;
-    border-radius: 20px;
-    font-size: 4rem;
-    text-indent: 2rem;
-  }
-
-  .news-letter {
-    margin-bottom: 20rem;
+    margin-top: 10px;
+    width: 220px;
+    height: 55px;
+    border-radius: 10px;
+    text-indent: 20px;
   }
 
   .btn-send {
-    margin-top: 2rem;
-    width: 28%;
-    height: 8rem;
+    margin-top: 10px;
+    width: 80px;
+    height: 56px;
     border-radius: 58px;
-    font-size: 2rem;
-    letter-spacing: 1rem;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-color: black;
     background-color: rgb(247, 171, 73);
-
   }
 
 }
