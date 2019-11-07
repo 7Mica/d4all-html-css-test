@@ -20,6 +20,13 @@
 }
 
 /* 
+  * Device = Desktops
+  * Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {}
+
+/* 
   * Device = Laptops, Desktops
   * Screen = B/w 1025px to 1280px
 */
@@ -29,9 +36,8 @@
     position: absolute;
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.4);
-    height: 8%;
+    height: 100px;
     width: 100%;
-    float: left;
   }
 }
 

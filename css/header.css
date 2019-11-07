@@ -1,22 +1,9 @@
-/* .brand {
-  position: absolute;
-  color: white;
-  font-family: Helveltica;
-  font-size: 2.5rem;
-  top: 35%;
-  letter-spacing: 0.2rem;
-  left: 8%;
-}
+/* 
+  * Device = Desktops
+  * Screen = 1281px to higher resolution desktops
+*/
 
-.menu {
-  position: absolute;
-  width: 10%;
-  height: 10%;
-  color: white;
-  font-size: 5rem;
-  right: 7%;
-  top: 35%;
-} */
+@media (min-width: 1281px) {}
 
 /*
   * Device = Laptops, Desktops
@@ -24,15 +11,14 @@
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
 
-
   .brand {
-    position: absolute;
     color: white;
     font-family: Helveltica;
-    font-size: 0.5rem;
-    top: 32%;
-    letter-spacing: 0.2rem;
-    left: 8%;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-top: 35px;
+    margin-left: 165px;
+    float: left;
   }
 
   .menu {
@@ -41,15 +27,14 @@
 
   .inline-menu {
     width: 40%;
-    top: 32%;
-    position: absolute;
-    right: 2%;
     color: white;
-    font-size: 0.8rem;
+    font-size: 12px;
+    float: right;
+    margin-top: 35px;
   }
 
   .inline-menu a {
-    margin-left: 5%;
+    margin-left: 25px;
   }
 
 }
@@ -89,10 +74,10 @@
 
 /* 
   * Device = Most of the Smartphones Mobiles (Portrait)
-  * Screen = B/w 320px to 479px
+  * Screen = B/w 0px to 479px
 */
 @media (max-width: 767px) {
-  
+
   .brand {
     position: absolute;
     color: white;
