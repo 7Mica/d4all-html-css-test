@@ -13,7 +13,7 @@
     width: 100%;
     height: 80%;
     background-color: black;
-    float: left;
+    display: table;
   }
 
   .contact-card {
@@ -82,64 +82,50 @@
     width: 100%;
     height: 80%;
     background-color: black;
-    float: left;
+    display: table;
   }
 
-  /*
-  + Esta clase falta hacer en la parte móvil
-  */
   .contact-card {
+    margin-top: 180px;
     position: relative;
-    height: 100%;
   }
 
   .contact-card h1 {
-    max-width: 40%;
-    top: 30%;
+    max-width: 500px;
     color: rgb(247, 171, 73);
-    font-size: 2rem;
-    position: relative;
-    padding-left: 7%;
-    padding-right: 7%;
-    line-height: 2.5rem;
+    font-size: 40px;
+    line-height: 40px;
+    margin-left: 165px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
   }
 
   .contact-card p:nth-child(1) {
-    top: 33%;
-    max-width: 85%;
-    font-size: 1rem;
-    padding: 2%;
+    font-size: 15px;
     color: white;
-    line-height: 1rem;
-    text-align: justify;
-    margin: 0 auto;
-    position: relative;
+    margin-left: 165px;
   }
 
   .contact-card p:nth-child(3) {
-    max-width: 60%;
-    position: relative;
-    top: 28%;
-    font-size: 1rem;
-    padding: 2%;
+    max-width: 460px;
+    font-size: 15px;
     color: white;
-    line-height: 1.5rem;
-    text-align: justify;
-    margin-left: 5%;
+    line-height: 25px;
+    margin-left: 165px;
+    margin-bottom: 25px;
   }
 
   .contact-button {
-    position: relative;
-    top: 10rem;
-    color: black;
-    width: 17%;
-    letter-spacing: 0.3rem;
-    height: 8%;
-    font-size: 0.7rem;
-    border-radius: 100px;
-    margin-left: 7%;
+    width: 150px;
+    letter-spacing: 2px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 30px;
+    margin-left: 165px;
     background-color: rgb(247, 171, 73);
     border-color: rgb(247, 171, 73);
+    border-style: none;
   }
 
   .first-slider .first-slider-image {
@@ -228,7 +214,7 @@
   .second-slider {
     width: 100%;
     background-color: white;
-    float: left;
+    display: table;
   }
 
   .header-card {
@@ -280,54 +266,54 @@
   * Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1279px) {
+
   .second-slider {
     width: 100%;
     background-color: white;
-    float: left;
+    display: table;
   }
 
   .header-card {
     width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    margin-top: 120px;
+    margin-bottom: 60px;
   }
 
   .header-card h3 {
     color: rgb(247, 171, 73);
-    font-size: 1.5rem;
+    font-size: 20px;
     text-align: center;
   }
 
   .header-card h1 {
     color: black;
-    font-size: 2.5rem;
+    font-size: 40px;
     text-align: center;
   }
 
   .content-pictures {
     width: 90%;
-    height: 100%;
-    position: relative;
-    top: 5%;
     margin: 0 auto;
   }
 
   .sample-picture {
+    border-radius: 20px;
     width: 30%;
     height: 18rem;
     background-color: gray;
     float: left;
-    margin-left: 2%;
-    margin-bottom: 2%;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   .sample-picture-large {
     width: 30%;
-    height: 24rem;
+    height: 18rem;
+    border-radius: 20px;
     background-color: gray;
     float: left;
-    margin-left: 2%;
-    margin-bottom: 4%;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -402,7 +388,7 @@
   .third-slider {
     width: 100%;
     background-color: black;
-    float: left;
+    display: table;
 
   }
 
@@ -487,104 +473,85 @@
   * Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1279px) {
+
   .third-slider {
     width: 100%;
     background-color: black;
-    float: left;
-    height: 125%;
-
+    display: table;
   }
 
   .title-picture {
-    float: left;
     background-image: url('../images/camera-guy.png');
     background-size: cover;
-    width: 41%;
-    height: 73%;
-    left: 5%;
-    margin-top: 8%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 540px;
+    height: 810px;
+    margin: 0 auto;
+    margin-top: 115px;
+    margin-bottom: 60px;
   }
 
   .content-about {
-    position: relative;
-    margin-top: 20%;
+    margin-top: 100px;
+    width: 70%;
+    margin: 0 auto;
   }
 
   .content-about h1 {
-    position: relative;
     color: white;
-    margin-left: 6%;
-    margin-bottom: 5%;
-    font-size: 1.5rem;
+    margin-bottom: 65px;
+    font-size: 30px;
   }
 
   .content-about p:nth-child(2) {
-    text-align: justify;
-    padding-left: 3%;
-    margin-left: 61%;
-    margin-right: 5%;
+    padding-left: 35px;
     border-left-color: rgb(247, 171, 73);
     border-left-style: solid;
+    border-left-width: 10px;
+    max-width: 450px;
+
   }
 
   .content-about p+p {
-    text-align: justify;
-    padding-left: 5%;
-    margin: 2%;
-    margin-right: 5%;
+    margin-top: 20px;
   }
 
   .content-about p {
-    font-size: 0.9rem;
+    font-size: 15px;
     color: white;
-    position: relative;
   }
 
-
-
   .social {
-    height: 2rem;
-    width: 2rem;
-    position: absolute;
-    font-size: 0.9rem;
-    margin-left: 55%;
+    height: 60px;
+    width: 60px;
+    margin-top: 60px;
+    font-size: 25px;
     border-radius: 100%;
     background-color: #3e3d3d;
     color: rgb(247, 171, 73);
+    margin-bottom: 100px;
+  }
+
+  .social-icons div+div {
+    margin-left: 30px;
   }
 
   .facebook {
-    left: 6%;
+    float: left;
   }
 
-  .facebook .icon {
-    top: 30%;
-    left: 37%;
-    position: absolute;
+  .icon {
+    margin: 19px;
   }
 
   .instagram {
-    left: 12%;
-  }
-
-  .instagram .icon {
-    top: 30%;
-    left: 32%;
-    position: absolute;
+    float: left;
   }
 
   .twitter {
-    left: 18%;
-
+    float: left;
   }
 
-  .twitter .icon {
-    top: 30%;
-    left: 30%;
-    position: absolute;
-  }
+
 }
 
 /* 
@@ -633,13 +600,6 @@
   .content-about p {
     font-size: 15px;
     color: white;
-  }
-
-  .social-networks {
-    position: relative;
-    height: 20rem;
-    width: 100%;
-    bottom: -4%;
   }
 
   .facebook {
@@ -696,7 +656,7 @@
   .fourth-slider {
     width: 100%;
     background-color: white;
-    float: left;
+    display: table;
   }
 
   .video-image {
@@ -715,26 +675,21 @@
   * Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1279px) {
+
   .fourth-slider {
     width: 100%;
-    height: 100%;
     background-color: white;
-    float: left;
-  }
-
-  .video-card {
-    width: 70%;
-    height: 70%;
+    display: table;
   }
 
   .video-image {
-    position: absolute;
-    width: 60%;
+    width: 730px;
     background-repeat: no-repeat;
-    height: 54%;
-    margin-left: 20%;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
     background-image: url('../images/video-image.png');
-    background-size: cover
+    background-size: cover;
   }
 }
 
@@ -776,12 +731,12 @@
   .fifth-slider {
     width: 100%;
     background-color: #f7f7f7;
-    float: left;
-
+    display: table;
   }
 
   .content-reviews {
-    width: 90%;
+    display: table;
+    margin: 0 auto;
   }
 
   .each-review {
@@ -793,19 +748,25 @@
 
   .stars {
     color: rgb(247, 171, 73);
-    font-size: 0.8rem;
-    margin-bottom: 5%;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .each-review h4 {
+    margin-top: 30px;
+    font-style: italic;
   }
 
   .each-review h2 {
-    font-size: 1rem;
-    margin-bottom: 5%;
+    font-size: 20px;
+    margin-bottom: 30px;
   }
 
   .each-review p {
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 15px;
+    line-height: 30px;
     font-style: italic;
+    margin-bottom: 30px;
 
   }
 }
@@ -815,40 +776,43 @@
   * Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1279px) {
+
   .fifth-slider {
     width: 100%;
-    height: 75%;
     background-color: #f7f7f7;
-    float: left;
-
+    display: table;
   }
 
   .content-reviews {
-    position: relative;
-    width: 100%;
-    height: 50%;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .each-review {
-    width: 28%;
-    margin-left: 5%;
+    margin-left: 80px;
     float: left;
+    margin-bottom: 100px;
   }
 
   .stars {
     color: rgb(247, 171, 73);
-    font-size: 0.8rem;
-    margin-bottom: 5%;
+    font-size: 15px;
+    margin-bottom: 10px;
   }
 
   .each-review h2 {
-    font-size: 1rem;
-    margin-bottom: 5%;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .each-review h4 {
+    margin-top: 30px;
+    font-style: italic;
   }
 
   .each-review p {
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 15px;
+    line-height: 35px;
     font-style: italic;
 
   }
@@ -890,6 +854,7 @@
 
   .each-review h4 {
     margin-top: 15px;
+    font-style: italic;
   }
 
   .each-review p {
@@ -914,11 +879,11 @@
   .sixth-slider {
     width: 100%;
     background-color: white;
-    float: left;
+    display: table;
   }
 
   .events-content {
-    width: 90%;
+    display: table;
     margin: 0 auto;
   }
 
@@ -987,29 +952,27 @@
   * Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1279px) {
+
   .sixth-slider {
     width: 100%;
-    height: 110%;
     background-color: white;
-    float: left;
+    display: table;
   }
 
   .events-content {
-    width: 100%;
-    height: 100%;
+    margin: 0 auto;
+    width: 55%;
   }
 
   .each-event {
-    width: 33%;
-    height: 50%;
     float: left;
+    margin-bottom: 120px;
   }
 
   .image-event {
-    width: 92%;
-    height: 60%;
-    margin-left: 4%;
-    margin-right: 4%;
+    width: 450px;
+    height: 350px;
+    margin: 0 auto;
     background-color: gray;
   }
 
@@ -1032,20 +995,15 @@
   }
 
   .event-title {
-    font-size: 1.3rem;
-    width: 90%;
-    height: 12%;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 4%;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
   }
 
   .event-author {
-    position: relative;
-    margin-top: 1%;
-    margin-left: 10%;
-    margin-right: 4%;
-    font-size: 1rem;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 15px;
   }
 
   .event-date {
@@ -1057,11 +1015,9 @@
   }
 
   .event-text {
-    position: relative;
-    margin-top: 4%;
-    margin-left: 10%;
-    margin-right: 4%;
-    font-size: 1rem;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
     color: #aeaeae;
   }
 }
@@ -1148,29 +1104,27 @@
   * Screen = >= 1280px
 */
 @media (min-width: 1280px) {
+
   .footer {
-    bottom: 0;
     background-color: black;
     width: 100%;
-    float: left;
+    display: table;
   }
 
   .footer-content {
     color: white;
-    height: 100%;
     margin: 0 auto;
     font-size: 15px;
-    width: 90%;
+    display: table;
+    margin-top: 150px;
+    margin-bottom: 150px;
   }
 
   .footer-about {
-    width: 350px;
+    width: 150px;
     float: left;
-    margin-bottom: 165px;
-  }
+    margin-right: 200px;
 
-  .section-title {
-    margin-top: 125px;
   }
 
   .about-body {
@@ -1180,8 +1134,9 @@
 
   .quick-links {
     float: left;
-    width: 350px;
-    margin-bottom: 165px;
+    width: 150px;
+    margin-right: 200px;
+
   }
 
   .links-list ul {
@@ -1202,25 +1157,24 @@
   .news-letter {
     width: 350px;
     float: left;
-    margin-bottom: 165px;
   }
 
   .newsletter-form input {
     margin-top: 30px;
-    width: 250px;
+    width: 270px;
     height: 55px;
     border-radius: 15px;
-    font-size: 1rem;
-    text-indent: 2rem;
+    font-size: 15px;
+    text-indent: 30px;
     border-color: rgba(0, 0, 0, 0);
   }
 
   .btn-send {
-    margin-top: 2rem;
-    width: 90px;
-    height: 60px;
+    margin-top: 30px;
+    width: 70px;
+    height: 50px;
     border-radius: 20px;
-    font-size: 1rem;
+    font-size: 15px;
     background-color: rgb(247, 171, 73);
     border-color: rgba(0, 0, 0, 0);
   }
@@ -1228,10 +1182,9 @@
   .copy-section {
     color: white;
     margin: 0 auto;
-    float: left;
+    display: table;
     text-align: center;
-    width: 90%;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
   }
 }
 
@@ -1240,45 +1193,45 @@
   * Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1279px) {
+
   .footer {
-    bottom: 0;
     background-color: black;
     width: 100%;
-    height: 80%;
-    float: left;
+    display: table;
   }
 
   .footer-content {
-    position: relative;
     color: white;
-    height: 100%;
-    margin-left: 5%;
-    font-size: 1rem;
+    margin: 0 auto;
+    font-size: 15px;
+    display: table;
+    margin-top: 150px;
+    margin-bottom: 150px;
   }
 
   .footer-about {
-    width: 30%;
+    width: 150px;
     float: left;
-  }
+    margin-right: 50px;
 
-  .section-title {
-    margin-top: 10%;
   }
 
   .about-body {
-    width: 95%;
-    margin-top: 2rem;
+    margin-top: 30px;
+    max-width: 250px;
   }
 
   .quick-links {
     float: left;
-    width: 30%;
+    width: 150px;
+    margin-right: 50px;
+
   }
 
   .links-list ul {
     list-style-type: none;
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
+    margin-top: 30px;
+    margin-left: 10px;
     color: gray;
   }
 
@@ -1291,35 +1244,36 @@
   }
 
   .news-letter {
-    width: 30%;
+    width: 250px;
     float: left;
   }
 
   .newsletter-form input {
-    margin-top: 2rem;
-    width: 60%;
-    height: 3rem;
+    margin-top: 30px;
+    width: 180px;
+    height: 55px;
     border-radius: 15px;
-    font-size: 1rem;
-    text-indent: 2rem;
+    font-size: 15px;
+    text-indent: 30px;
     border-color: rgba(0, 0, 0, 0);
   }
 
   .btn-send {
-    margin-top: 2rem;
-    width: 28%;
-    height: 3rem;
+    margin-top: 30px;
+    width: 60px;
+    height: 50px;
     border-radius: 20px;
-    font-size: 1rem;
+    font-size: 15px;
     background-color: rgb(247, 171, 73);
     border-color: rgba(0, 0, 0, 0);
   }
 
   .copy-section {
-    position: absolute;
-    bottom: 25%;
-    margin-left: 16%;
+    color: white;
+    margin: 0 auto;
+    display: table;
     text-align: center;
+    margin-bottom: 150px;
   }
 }
 
