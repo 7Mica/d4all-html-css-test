@@ -9,41 +9,60 @@
 
 @media (min-width: 1280px) {
 
-  .first-slider {
-    width: 100%;
-    height: 80%;
+  .first-slider-content {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    right: 0;
+  }
+
+  .dark-opacity-mask {
     background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    height: 625px;
+    width: 100%;
+  }
+
+  .first-slider-image {
     display: table;
+    background-image: url('../images/header-image-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 625px;
+    width: 100%;
   }
 
-  .contact-card {
-    margin-top: 180px;
-    position: relative;
+  .first-wrapper {
+    width: 1014px;
+    margin: 0 auto;
   }
 
-  .contact-card h1 {
-    max-width: 500px;
+  .max-width-wrapper {
+    max-width: 470px;
+  }
+
+  .first-slider-content h1 {
     color: rgb(247, 171, 73);
     font-size: 40px;
     line-height: 40px;
-    margin-left: 165px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bolder;
   }
 
-  .contact-card p:nth-child(1) {
+  .first-slider-content p:nth-child(1) {
     font-size: 15px;
     color: white;
-    margin-left: 165px;
   }
 
-  .contact-card p:nth-child(3) {
-    max-width: 460px;
+  .first-slider-content p:nth-child(3) {
     font-size: 15px;
     color: white;
     line-height: 25px;
-    margin-left: 165px;
     margin-bottom: 25px;
   }
 
@@ -53,66 +72,74 @@
     height: 40px;
     font-size: 12px;
     border-radius: 30px;
-    margin-left: 165px;
     background-color: rgb(247, 171, 73);
     border-color: rgb(247, 171, 73);
     border-style: none;
   }
 
-  .first-slider .first-slider-image {
-    position: absolute;
-    background-image: url('../images/header-image-2.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.7;
-    height: 80%;
-    width: 100%;
-  }
 }
 
 /* 
   * Device = Tablets, Ipads (portrait)
-  * Screen = B/w 768px to 1024px
+  * Screen = B/w 768px to 1279px
 */
 
 @media (min-width: 768px) and (max-width: 1279px) {
 
-  .first-slider {
-    width: 100%;
-    height: 80%;
+  .first-slider-content {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    right: 0;
+  }
+
+  .dark-opacity-mask {
     background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    height: 625px;
+    width: 100%;
+  }
+
+  .first-slider-image {
     display: table;
+    background-image: url('../images/header-image-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 625px;
+    width: 100%;
   }
 
-  .contact-card {
-    margin-top: 180px;
-    position: relative;
+  .first-wrapper {
+    width: 650px;
+    margin: 0 auto;
   }
 
-  .contact-card h1 {
-    max-width: 500px;
+  .max-width-wrapper {
+    max-width: 470px;
+  }
+
+  .first-slider-content h1 {
     color: rgb(247, 171, 73);
     font-size: 40px;
     line-height: 40px;
-    margin-left: 165px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bolder;
   }
 
-  .contact-card p:nth-child(1) {
+  .first-slider-content p:nth-child(1) {
     font-size: 15px;
     color: white;
-    margin-left: 165px;
   }
 
-  .contact-card p:nth-child(3) {
-    max-width: 460px;
+  .first-slider-content p:nth-child(3) {
     font-size: 15px;
     color: white;
     line-height: 25px;
-    margin-left: 165px;
     margin-bottom: 25px;
   }
 
@@ -122,81 +149,89 @@
     height: 40px;
     font-size: 12px;
     border-radius: 30px;
-    margin-left: 165px;
     background-color: rgb(247, 171, 73);
     border-color: rgb(247, 171, 73);
     border-style: none;
-  }
-
-  .first-slider .first-slider-image {
-    position: absolute;
-    background-image: url('../images/header-image-2.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.7;
-    height: 80%;
-    width: 100%;
   }
 }
 
 
 /* 
   * Device = Most of the Smartphones Mobiles (Portrait)
-  * Screen = B/w 0px to 479px
+  * Screen = B/w 0px to 767px
 */
 
 @media (max-width: 767px) {
 
   .first-slider {
-    width: 100%;
     height: 100%;
-    background-color: black;
-
+    width: 100%;
   }
 
-  .first-slider .contact-card {
+  .first-slider-content {
     position: absolute;
-    top: 145px;
+    top: 150px;
+    left: 0;
+    right: 0;
   }
 
-  .contact-card h1 {
-    color: rgb(247, 171, 73);
-    font-size: 35px;
-    line-height: 40px;
-    margin: 15px 0px 0 15px;
+  .dark-opacity-mask {
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
   }
 
-  .contact-card p {
-    max-width: 305px;
-    font-size: 18px;
-    color: white;
-    line-height: 30px;
-    margin: 5px 15px 0 15px
-  }
-
-  .contact-button {
-    color: black;
-    width: 155px;
-    letter-spacing: 2.5px;
-    height: 40px;
-    font-size: 15px;
-
-    border-radius: 100px;
-    margin: 25px 0 0 15px;
-    background-color: rgb(247, 171, 73);
-    border-color: rgb(0, 0, 0, 0);
-  }
-
-  .first-slider .first-slider-image {
-    position: relative;
+  .first-slider-image {
+    display: table;
     background-image: url('../images/header-image-2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.7;
     height: 100%;
     width: 100%;
+  }
+
+  .first-wrapper {
+    width: 310px;
+    margin: 0 auto;
+  }
+
+  .max-width-wrapper {
+    max-width: 470px;
+  }
+
+  .first-slider-content h1 {
+    color: rgb(247, 171, 73);
+    font-size: 35px;
+    line-height: 35px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    font-weight: bolder;
+  }
+
+  .first-slider-content p {
+    font-size: 18px;
+    color: white;
+    line-height: 25px;
+  }
+
+  .first-slider-content p:nth-child(3) {
+    margin-bottom: 25px;
+  }
+
+  .contact-button {
+    width: 160px;
+    letter-spacing: 2px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 30px;
+    background-color: rgb(247, 171, 73);
+    border-color: rgb(247, 171, 73);
+    border-style: none;
   }
 }
 
@@ -212,125 +247,16 @@
 @media (min-width: 1280px) {
 
   .second-slider {
-    width: 100%;
+    width: 1014px;
+    margin: 0 auto;
     background-color: white;
     display: table;
-  }
-
-  .header-card {
-    width: 100%;
     margin-top: 120px;
-    margin-bottom: 60px;
-  }
-
-  .header-card h3 {
-    color: rgb(247, 171, 73);
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .header-card h1 {
-    color: black;
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .content-pictures {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .sample-picture {
-    border-radius: 20px;
-    width: 30%;
-    height: 18rem;
-    background-color: gray;
-    float: left;
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-
-  .sample-picture-large {
-    width: 30%;
-    height: 18rem;
-    border-radius: 20px;
-    background-color: gray;
-    float: left;
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-}
-
-/* 
-  * Device = Tablets, Ipads (portrait)
-  * Screen = B/w 768px to 1024px
-*/
-@media (min-width: 768px) and (max-width: 1279px) {
-
-  .second-slider {
-    width: 100%;
-    background-color: white;
-    display: table;
+    margin-bottom: 135px;
   }
 
   .header-card {
     width: 100%;
-    margin-top: 120px;
-    margin-bottom: 60px;
-  }
-
-  .header-card h3 {
-    color: rgb(247, 171, 73);
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .header-card h1 {
-    color: black;
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .content-pictures {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .sample-picture {
-    border-radius: 20px;
-    width: 30%;
-    height: 18rem;
-    background-color: gray;
-    float: left;
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-
-  .sample-picture-large {
-    width: 30%;
-    height: 18rem;
-    border-radius: 20px;
-    background-color: gray;
-    float: left;
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-}
-
-/* 
-  * Device = Most of the Smartphones Mobiles (Portrait)
-  * Screen = B/w 0px to 479px
-*/
-
-@media (max-width: 767px) {
-
-  .second-slider {
-    width: 100%;
-    background-color: white;
-  }
-
-  .header-card {
-    margin-top: 55px;
     margin-bottom: 55px;
   }
 
@@ -347,29 +273,132 @@
   }
 
   .content-pictures {
-    width: 80%;
-    height: 100%;
-    position: relative;
-    top: 5%;
-    margin-left: 10%;
+    display: table;
+    margin: 0 auto;
   }
+
+  .content-pictures div:nth-child(3n+1) {
+    margin-left: 0;
+  }
+
 
   .sample-picture {
-    width: 40%;
-    height: 8rem;
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 330px;
+    height: 260px;
     background-color: gray;
     float: left;
-    margin: 5%;
+    margin-left: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+/* 
+  * Device = Tablets, Ipads (portrait)
+  * Screen = B/w 768px to 1279px
+*/
+@media (min-width: 768px) and (max-width: 1279px) {
+
+  .second-slider {
+    width: 650px;
+    margin: 0 auto;
+    background-color: white;
+    display: table;
+    margin-top: 55px;
+    margin-bottom: 75px;
   }
 
-  .sample-picture-large {
-    width: 40%;
-    height: 17rem;
+  .header-card {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .header-card h3 {
+    color: rgb(247, 171, 73);
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .header-card h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .content-pictures {
+    width: 650px;
+    display: table;
+    margin: 0 auto;
+  }
+
+  .content-pictures div:nth-child(3n+1) {
+    margin-left: 0;
+  }
+
+
+  .sample-picture {
     border-radius: 10px;
+    width: 210px;
+    height: 180px;
     background-color: gray;
     float: left;
-    margin: 5%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+/* 
+  * Device = Most of the Smartphones Mobiles (Portrait)
+  * Screen = B/w 0px to 767px
+*/
+
+@media (max-width: 767px) {
+
+  .second-slider {
+    width: 310px;
+    margin: 0 auto;
+    background-color: white;
+    display: table;
+    margin-bottom: 75px;
+    margin-top: 55px;
+  }
+
+  .header-card {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .header-card h3 {
+    color: rgb(247, 171, 73);
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .header-card h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .content-pictures {
+    width: 310px;
+    display: table;
+    margin: 0 auto;
+  }
+
+  .content-pictures div:nth-child(2n+1) {
+    margin-left: 0;
+  }
+
+
+  .sample-picture {
+    border-radius: 10px;
+    width: 150px;
+    height: 120px;
+    background-color: gray;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
   }
 
 }
@@ -389,35 +418,48 @@
     width: 100%;
     background-color: black;
     display: table;
+  }
 
+  .margin-wrapper {
+    width: 1014px;
+    margin: 0 auto;
+    background-color: black;
+    display: table;
+    margin-bottom: 110px;
+    margin-top: 110px;
+  }
+
+  .third-slider-wrapper {
+    width: 1014px;
+    display: table;
   }
 
   .title-picture {
     float: left;
     background-image: url('../images/camera-guy.png');
     background-size: cover;
-    width: 540px;
+    width: 50%;
     height: 810px;
-    margin-top: 115px;
-    margin-left: 165px;
-    margin-right: 120px;
-    margin-bottom: 110px;
   }
 
   .content-about {
-    margin-top: 230px;
+    width: 40%;
+    display: table;
+    padding-left: 10%;
+    float: left;
+    padding-top: 17%;
+    padding-bottom: 15%;
   }
 
   .content-about h1 {
     color: white;
-    margin-bottom: 65px;
+    margin-bottom: 50px;
     font-size: 30px;
   }
 
   .content-about p:nth-child(2) {
-    padding-left: 35px;
-    margin-left: 830px;
-    margin-right: 100px;
+    padding-left: 30px;
+    padding-bottom: 7px;
     border-left-color: rgb(247, 171, 73);
     border-left-style: solid;
     border-left-width: 10px;
@@ -426,31 +468,39 @@
 
   .content-about p+p {
     margin-top: 20px;
-    margin-right: 100px;
   }
 
   .content-about p {
     font-size: 15px;
-    color: white;
+    color: #909090;
+    line-height: 23px;
     position: relative;
   }
 
   .social {
-    height: 60px;
-    width: 60px;
-    margin-top: 60px;
-    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    font-size: 15px;
     border-radius: 100%;
     background-color: #3e3d3d;
     color: rgb(247, 171, 73);
   }
 
+  .social-icons {
+    margin-top: 30px;
+    display: table;
+  }
+
   .social-icons div+div {
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
   .facebook {
     float: left;
+  }
+
+  .facebook>i {
+    margin: 17px 20px;
   }
 
   .icon {
@@ -461,8 +511,16 @@
     float: left;
   }
 
+  .instagram>i {
+    margin: 17px 18px;
+  }
+
   .twitter {
     float: left;
+  }
+
+  .twitter>i {
+    margin: 18px 17px;
   }
 
 
@@ -470,7 +528,7 @@
 
 /* 
   * Device = Tablets, Ipads (portrait)
-  * Screen = B/w 768px to 1024px
+  * Screen = B/w 768px to 1279px
 */
 @media (min-width: 768px) and (max-width: 1279px) {
 
@@ -480,25 +538,41 @@
     display: table;
   }
 
-  .title-picture {
-    background-image: url('../images/camera-guy.png');
-    background-size: cover;
-    width: 540px;
-    height: 810px;
+  .margin-wrapper {
+    width: 650px;
     margin: 0 auto;
-    margin-top: 115px;
+    background-color: black;
+    display: table;
+    margin-top: 50px;
     margin-bottom: 60px;
   }
 
-  .content-about {
-    margin-top: 100px;
-    width: 70%;
-    margin: 0 auto;
+  .third-slider-wrapper {
+    width: 650px;
+    display: table;
   }
+
+  .title-picture {
+    float: left;
+    background-image: url('../images/camera-guy.png');
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 485px;
+    background-size: contain;
+  }
+
+  .content-about {
+    width: 40%;
+    display: table;
+    padding-left: 10%;
+    float: left;
+  }
+
+  .content-about {}
 
   .content-about h1 {
     color: white;
-    margin-bottom: 65px;
+    margin-bottom: 25px;
     font-size: 30px;
   }
 
@@ -507,7 +581,6 @@
     border-left-color: rgb(247, 171, 73);
     border-left-style: solid;
     border-left-width: 10px;
-    max-width: 450px;
 
   }
 
@@ -517,26 +590,34 @@
 
   .content-about p {
     font-size: 15px;
-    color: white;
+    color: #909090;
+    position: relative;
   }
 
   .social {
     height: 60px;
     width: 60px;
-    margin-top: 60px;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 100%;
     background-color: #3e3d3d;
     color: rgb(247, 171, 73);
-    margin-bottom: 100px;
+  }
+
+  .social-icons {
+    display: table;
+    margin-top: 25px;
   }
 
   .social-icons div+div {
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
   .facebook {
     float: left;
+  }
+
+  .facebook>i {
+    margin: 19px 24px;
   }
 
   .icon {
@@ -547,8 +628,16 @@
     float: left;
   }
 
+  .instagram>i {
+    margin: 20px 21px;
+  }
+
   .twitter {
     float: left;
+  }
+
+  .twitter>i {
+    margin: 20px 20px;
   }
 
 
@@ -556,90 +645,113 @@
 
 /* 
   * Device = Most of the Smartphones Mobiles (Portrait)
-  * Screen = B/w 0px to 479px
+  * Screen = B/w 0px to 767px
 */
 @media (max-width: 767px) {
 
   .third-slider {
     width: 100%;
     background-color: black;
-    float: left;
+    display: table;
+  }
+
+  .margin-wrapper {
+    width: 310px;
+    margin: 0 auto;
+    background-color: black;
+    display: table;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+
+  .third-slider-wrapper {
+    width: 310px;
+    display: table;
   }
 
   .title-picture {
     background-image: url('../images/camera-guy.png');
-    background-size: cover;
-    width: 310px;
-    height: 520px;
-    margin: 50px auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 465px;
+    background-size: contain;
   }
 
   .content-about {
+    display: table;
+    width: 310px;
     margin-top: 50px;
   }
 
   .content-about h1 {
     color: white;
-    margin-left: 25px;
-    font-size: 35px;
+    margin-bottom: 35px;
+    font-size: 30px;
   }
 
-  .first-p {
-    text-align: justify;
-    border-left: solid 9px rgb(247, 171, 73);
-    padding: 20px;
-    margin: 30px;
+  .content-about p:nth-child(2) {
+    padding-left: 30px;
+    padding-bottom: 7px;
+    border-left-color: rgb(247, 171, 73);
+    border-left-style: solid;
+    border-left-width: 10px;
+
   }
 
   .content-about p+p {
-    text-align: justify;
-    padding: 20px;
-    margin: 10px;
+    margin-top: 20px;
   }
 
   .content-about p {
     font-size: 15px;
-    color: white;
+    color: #909090;
+    position: relative;
   }
 
-  .facebook {
-    background-color: #3e3d3d;
+  .social {
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
     border-radius: 100%;
-    height: 50px;
-    float: left;
-    margin-bottom: 35px;
-    margin-left: 25px;
-    width: 50px;
-    font-size: 25px;
+    background-color: #3e3d3d;
     color: rgb(247, 171, 73);
   }
 
+  .social-icons {
+    display: table;
+    margin-top: 55px;
+  }
+
+  .social-icons div+div {
+    margin-left: 10px;
+  }
+
+  .facebook {
+    float: left;
+  }
+
+  .facebook>i {
+    margin: 19px 24px;
+  }
+
   .icon {
-    position: relative;
-    top: 7px;
-    left: 12px;
+    margin: 19px;
   }
 
   .instagram {
     float: left;
-    background-color: #3e3d3d;
-    border-radius: 100%;
-    height: 50px;
-    margin-left: 25px;
-    width: 50px;
-    font-size: 25px;
-    color: rgb(247, 171, 73);
+  }
+
+  .instagram>i {
+    margin: 20px 21px;
   }
 
   .twitter {
     float: left;
-    background-color: #3e3d3d;
-    border-radius: 100%;
-    height: 50px;
-    margin-left: 25px;
-    width: 50px;
-    font-size: 25px;
-    color: rgb(247, 171, 73);
+  }
+
+  .twitter>i {
+    margin: 20px 20px;
   }
 }
 
@@ -649,12 +761,15 @@
 
 /*
   * Device = Laptops, Desktops
-  * Screen = B/w >= 1280px
+  * Screen = >= 1280px
 */
 @media (min-width: 1280px) {
 
   .fourth-slider {
-    width: 100%;
+    width: 1014px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 112px;
     background-color: white;
     display: table;
   }
@@ -664,7 +779,6 @@
     background-repeat: no-repeat;
     height: 500px;
     margin: 0 auto;
-    margin-bottom: 100px;
     background-image: url('../images/video-image.png');
     background-size: cover;
   }
@@ -672,22 +786,24 @@
 
 /* 
   * Device = Tablets, Ipads (portrait)
-  * Screen = B/w 768px to 1024px
+  * Screen = B/w 768px to 1279px
 */
 @media (min-width: 768px) and (max-width: 1279px) {
 
   .fourth-slider {
-    width: 100%;
+    width: 650px;
+    margin: 0 auto;
     background-color: white;
     display: table;
+    margin-top: 55px;
+    margin-bottom: 50px;
   }
 
   .video-image {
-    width: 730px;
+    width: 650px;
     background-repeat: no-repeat;
     height: 500px;
     margin: 0 auto;
-    margin-bottom: 100px;
     background-image: url('../images/video-image.png');
     background-size: cover;
   }
@@ -695,25 +811,26 @@
 
 /* 
   * Device = Most of the Smartphones Mobiles (Portrait)
-  * Screen = B/w 0px to 479px
+  * Screen = B/w 0px to 767px
 */
 @media (max-width: 767px) {
-  .fourth-slider {
-    width: 100%;
-    height: 65%;
-    background-color: white;
-    float: left;
 
+  .fourth-slider {
+    width: 310px;
+    margin: 0 auto;
+    background-color: white;
+    display: table;
+    margin-top: 55px;
+    margin-bottom: 50px;
   }
 
   .video-image {
-    width: 300px;
-    height: 200px;
+    width: 100%;
     background-repeat: no-repeat;
+    height: 200px;
+    margin: 0 auto;
     background-image: url('../images/video-image.png');
     background-size: cover;
-    margin: 0 auto;
-
   }
 
 }
@@ -724,13 +841,21 @@
 
 /*
   * Device = Laptops, Desktops
-  * Screen = B/w >= 1280px
+  * Screen = >= 1280px
 */
 @media (min-width: 1280px) {
 
   .fifth-slider {
     width: 100%;
-    background-color: #f7f7f7;
+    display: table;
+    background-color: #f3f3f3;
+  }
+
+  .fifth-margin-wrapper {
+    width: 1014px;
+    margin: 0 auto;
+    margin-top: 116px;
+    margin-bottom: 135px;
     display: table;
   }
 
@@ -741,9 +866,67 @@
 
   .each-review {
     width: 280px;
-    margin-left: 80px;
     float: left;
-    margin-bottom: 100px;
+  }
+
+  .stars {
+    color: rgb(247, 171, 73);
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .content-reviews div+div {
+    margin-left: 85px;
+  }
+
+  .each-review h4 {
+    margin-top: 30px;
+    font-style: italic;
+    color: #909090;
+  }
+
+  .each-review h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .each-review p {
+    font-size: 15px;
+    line-height: 30px;
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+}
+
+/* 
+  * Device = Tablets, Ipads (portrait)
+  * Screen = B/w 768px to 1279px
+*/
+@media (min-width: 768px) and (max-width: 1279px) {
+
+  .fifth-slider {
+    width: 100%;
+    display: table;
+    background-color: #f3f3f3;
+  }
+
+  .fifth-margin-wrapper {
+    width: 650px;
+    margin: 0 auto;
+    display: table;
+    margin-top: 55px;
+    margin-bottom: 70px;
+  }
+
+  .content-reviews {
+    display: table;
+    margin: 0 auto;
+  }
+
+  .each-review {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
   }
 
   .stars {
@@ -767,100 +950,62 @@
     line-height: 30px;
     font-style: italic;
     margin-bottom: 30px;
-
-  }
-}
-
-/* 
-  * Device = Tablets, Ipads (portrait)
-  * Screen = B/w 768px to 1024px
-*/
-@media (min-width: 768px) and (max-width: 1279px) {
-
-  .fifth-slider {
-    width: 100%;
-    background-color: #f7f7f7;
-    display: table;
-  }
-
-  .content-reviews {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .each-review {
-    margin-left: 80px;
-    float: left;
-    margin-bottom: 100px;
-  }
-
-  .stars {
-    color: rgb(247, 171, 73);
-    font-size: 15px;
-    margin-bottom: 10px;
-  }
-
-  .each-review h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-
-  .each-review h4 {
-    margin-top: 30px;
-    font-style: italic;
-  }
-
-  .each-review p {
-    font-size: 15px;
-    line-height: 35px;
-    font-style: italic;
 
   }
 }
 
 /* 
   * Device = Most of the Smartphones Mobiles (Portrait)
-  * Screen = B/w 0px to 479px
+  * Screen = B/w 0px to 767px
 */
 @media (max-width: 767px) {
 
   .fifth-slider {
     width: 100%;
-    background-color: #f7f7f7;
-    float: left;
+    display: table;
+    background-color: #f3f3f3;
+  }
+
+  .fifth-margin-wrapper {
+    width: 310px;
+    margin: 0 auto;
+    display: table;
+    margin-top: 55px;
+    margin-bottom: 70px;
   }
 
   .content-reviews {
-    position: relative;
-    width: 100%;
+    display: table;
+    margin: 0 auto;
   }
 
   .each-review {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 30px;
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
   }
 
   .stars {
     color: rgb(247, 171, 73);
     font-size: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+  }
+
+  .each-review h4 {
+    margin-top: 30px;
+    font-style: italic;
   }
 
   .each-review h2 {
     font-size: 20px;
-    margin-bottom: 15px;
-  }
-
-  .each-review h4 {
-    margin-top: 15px;
-    font-style: italic;
+    margin-bottom: 30px;
   }
 
   .each-review p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 30px;
     font-style: italic;
+    margin-bottom: 30px;
 
   }
 }
@@ -877,9 +1022,11 @@
 @media (min-width: 1280px) {
 
   .sixth-slider {
-    width: 100%;
-    background-color: white;
+    width: 1014px;
+    margin: 0 auto;
     display: table;
+    margin-top: 120px;
+    margin-bottom: 180px;
   }
 
   .events-content {
@@ -887,15 +1034,22 @@
     margin: 0 auto;
   }
 
+  .events-content>div+div {
+    margin-left: 50px;
+  }
+
+  .body-event {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+
   .each-event {
-    width: 365px;
-    height: 400px;
+    width: 30%;
     float: left;
-    margin-bottom: 185px;
   }
 
   .image-event {
-    width: 350px;
+    width: 100%;
     height: 250px;
     margin: 0 auto;
     background-color: gray;
@@ -921,12 +1075,9 @@
 
   .event-title {
     font-size: 20px;
-    margin-top: 30px;
-    margin-left: 30px;
   }
 
   .event-author {
-    margin-left: 30px;
     margin-top: 30px;
     font-size: 15px;
   }
@@ -941,37 +1092,49 @@
 
   .event-text {
     margin-top: 30px;
-    margin-left: 30px;
     font-size: 15px;
     color: #aeaeae;
+    line-height: 25px;
+
   }
 }
 
 /* 
   * Device = Tablets, Ipads (portrait)
-  * Screen = B/w 768px to 1024px
+  * Screen = B/w 768px to 1279px
 */
 @media (min-width: 768px) and (max-width: 1279px) {
 
   .sixth-slider {
-    width: 100%;
-    background-color: white;
+    width: 650px;
+    margin: 0 auto;
     display: table;
+    margin-top: 55px;
+    margin-bottom: 115px;
   }
 
   .events-content {
+    display: table;
     margin: 0 auto;
-    width: 55%;
+  }
+
+  .body-event {
+    margin-top: 20px;
+    padding-left: 20px;
   }
 
   .each-event {
     float: left;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
+  }
+
+  .events-content>div:last-child {
+    margin-bottom: 0;
   }
 
   .image-event {
-    width: 450px;
-    height: 350px;
+    width: 100%;
+    height: 250px;
     margin: 0 auto;
     background-color: gray;
   }
@@ -996,12 +1159,9 @@
 
   .event-title {
     font-size: 20px;
-    margin-top: 30px;
-    margin-left: 30px;
   }
 
   .event-author {
-    margin-left: 30px;
     margin-top: 30px;
     font-size: 15px;
   }
@@ -1016,32 +1176,49 @@
 
   .event-text {
     margin-top: 30px;
-    margin-left: 30px;
     font-size: 15px;
     color: #aeaeae;
+    line-height: 25px;
+
   }
 }
 
 /* 
   * Device = Most of the Smartphones Mobiles (Portrait)
-  * Screen = B/w 0px to 479px
+  * Screen = B/w 0px to 767px
 */
 @media (max-width: 767px) {
   .sixth-slider {
-    width: 100%;
-    background-color: white;
-    float: left;
+    width: 310px;
+    margin: 0 auto;
+    display: table;
+    margin-top: 55px;
+    margin-bottom: 115px;
+  }
+
+  .events-content {
+    display: table;
+    margin: 0 auto;
+  }
+
+  .body-event {
+    margin-top: 20px;
+    padding-left: 20px;
   }
 
   .each-event {
-    margin-bottom: 10%;
+    float: left;
+    margin-bottom: 50px;
+  }
+
+  .events-content>div:last-child {
+    margin-bottom: 0;
   }
 
   .image-event {
+    width: 100%;
+    height: 250px;
     margin: 0 auto;
-    width: 310px;
-    margin-bottom: 30px;
-    height: 230px;
     background-color: gray;
   }
 
@@ -1065,31 +1242,27 @@
 
   .event-title {
     font-size: 20px;
-    margin-bottom: 35px;
-    margin-left: 50px;
   }
 
   .event-author {
-    position: relative;
-    margin-bottom: 30px;
-    margin-left: 50px;
+    margin-top: 30px;
     font-size: 15px;
   }
 
   .event-date {
-    color: gray;
+    color: #d9d9d9;
   }
 
   .event-date-author {
     color: rgb(247, 171, 73);
   }
 
-
   .event-text {
-    margin-left: 50px;
-    margin-right: 40px;
+    margin-top: 30px;
     font-size: 15px;
+    color: #aeaeae;
     line-height: 25px;
+
   }
 
 }
@@ -1116,34 +1289,33 @@
     margin: 0 auto;
     font-size: 15px;
     display: table;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 130px;
+    margin-bottom: 175px;
+    width: 1014px;
   }
 
   .footer-about {
-    width: 150px;
+    width: calc(100%/3);
     float: left;
-    margin-right: 200px;
 
   }
 
   .about-body {
-    margin-top: 30px;
     max-width: 250px;
+    line-height: 22px;
   }
 
   .quick-links {
     float: left;
-    width: 150px;
-    margin-right: 200px;
+    width: calc(100%/3);
 
   }
 
   .links-list ul {
     list-style-type: none;
-    margin-top: 30px;
     margin-left: 10px;
     color: gray;
+    line-height: 30px;
   }
 
   .links-list ul a:active,
@@ -1155,13 +1327,12 @@
   }
 
   .news-letter {
-    width: 350px;
+    width: calc(100%/3);
     float: left;
   }
 
   .newsletter-form input {
-    margin-top: 30px;
-    width: 270px;
+    width: 260px;
     height: 55px;
     border-radius: 15px;
     font-size: 15px;
@@ -1169,11 +1340,14 @@
     border-color: rgba(0, 0, 0, 0);
   }
 
+  .section-title {
+    margin-bottom: 30px;
+  }
+
   .btn-send {
-    margin-top: 30px;
     width: 70px;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 24px;
     font-size: 15px;
     background-color: rgb(247, 171, 73);
     border-color: rgba(0, 0, 0, 0);
@@ -1186,11 +1360,15 @@
     text-align: center;
     margin-bottom: 150px;
   }
+
+  .copy-section>p>span {
+    color: #909090;
+  }
 }
 
 /* 
   * Device = Tablets, Ipads (portrait)
-  * Screen = B/w 768px to 1024px
+  * Screen = B/w 768px to 1279px
 */
 @media (min-width: 768px) and (max-width: 1279px) {
 
@@ -1205,34 +1383,35 @@
     margin: 0 auto;
     font-size: 15px;
     display: table;
-    margin-top: 150px;
+    margin-top: 65px;
     margin-bottom: 150px;
+    width: 650px;
   }
 
   .footer-about {
-    width: 150px;
+    width: calc(100%/3);
     float: left;
-    margin-right: 50px;
 
   }
 
   .about-body {
-    margin-top: 30px;
     max-width: 250px;
   }
 
   .quick-links {
     float: left;
-    width: 150px;
-    margin-right: 50px;
+    width: calc(100%/3);
 
   }
 
   .links-list ul {
     list-style-type: none;
-    margin-top: 30px;
     margin-left: 10px;
     color: gray;
+  }
+
+  .links-list ul li {
+    line-height: 30px;
   }
 
   .links-list ul a:active,
@@ -1244,23 +1423,25 @@
   }
 
   .news-letter {
-    width: 250px;
+    width: calc(100%/3);
     float: left;
   }
 
   .newsletter-form input {
-    margin-top: 30px;
-    width: 180px;
+    width: 150px;
     height: 55px;
-    border-radius: 15px;
+    border-radius: 5px;
     font-size: 15px;
     text-indent: 30px;
     border-color: rgba(0, 0, 0, 0);
   }
 
+  .section-title {
+    margin-bottom: 30px;
+  }
+
   .btn-send {
-    margin-top: 30px;
-    width: 60px;
+    width: 55px;
     height: 50px;
     border-radius: 20px;
     font-size: 15px;
@@ -1279,39 +1460,54 @@
 
 /* 
   * Device = Most of the Smartphones Mobiles (Portrait)
-  * Screen = B/w 0px to 479px
+  * Screen = B/w 0px to 767px
 */
 @media (max-width: 767px) {
 
   .footer {
-    bottom: 0;
     background-color: black;
     width: 100%;
-    height: 100%;
-    float: left;
-    font-size: 15px;
+    display: table;
   }
 
   .footer-content {
-    width: 310px;
-    margin: 0 auto;
     color: white;
+    margin: 0 auto;
+    font-size: 15px;
+    display: table;
+    margin-top: 65px;
+    margin-bottom: 150px;
+    width: 310px;
   }
 
-  .section-title {
-    margin-top: 25px;
+  .footer-content>div {
+    margin-bottom: 20px;
+  }
+
+  .footer-about {
+    width: 100%;
+    float: left;
+
   }
 
   .about-body {
-    margin-top: 25px;
-    text-align: justify;
+    max-width: 310px;
+  }
+
+  .quick-links {
+    float: left;
+    width: 100%;
+
   }
 
   .links-list ul {
     list-style-type: none;
-    margin-top: 10px;
     margin-left: 10px;
     color: gray;
+  }
+
+  .links-list ul li {
+    line-height: 35px;
   }
 
   .links-list ul a:active,
@@ -1322,28 +1518,43 @@
     color: gray;
   }
 
-  .copy-section {
-    margin-top: 10%;
-    text-align: center;
+  .news-letter {
+    width: 100%;
+    float: left;
   }
 
   .newsletter-form input {
-    margin-top: 10px;
-    width: 220px;
+    width: 230px;
     height: 55px;
-    border-radius: 10px;
-    text-indent: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-indent: 30px;
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .section-title {
+    margin-bottom: 20px;
   }
 
   .btn-send {
-    margin-top: 10px;
-    width: 80px;
-    height: 56px;
-    border-radius: 58px;
+    width: 72px;
+    height: 50px;
+    border-radius: 25px;
     font-size: 15px;
-    letter-spacing: 2px;
-    border-color: black;
     background-color: rgb(247, 171, 73);
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .copy-section {
+    color: white;
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+    margin-bottom: 150px;
+  }
+
+  .copy-section>p>span {
+    color: #909090;
   }
 
 }

@@ -1,16 +1,21 @@
 /*
   * Device = Laptops, Desktops
-  * Screen = B/w 1025px to 1280px
+  * Screen = >= 1280px
 */
 @media (min-width: 1280px) {
+
+  .header-content {
+    width: 1014px;
+    margin: 0 auto;
+    margin-top: 35px;
+    text-align: right;
+  }
 
   .brand {
     color: white;
     font-family: Helveltica;
     font-size: 10px;
     letter-spacing: 3px;
-    margin-top: 35px;
-    margin-left: 165px;
     float: left;
   }
 
@@ -23,27 +28,35 @@
     color: white;
     font-size: 12px;
     float: right;
-    margin-top: 35px;
   }
 
   .inline-menu a {
     margin-left: 25px;
   }
 
+  .inline-menu a:first-child {
+    color: rgb(247, 171, 73);
+  }
+
 }
 
 /* 
   * Device = Tablets, Ipads (portrait)
-  * Screen = B/w 768px to 1024px
+  * Screen = B/w 768px to 1279px
 */
 @media (min-width: 768px) and (max-width: 1279px) {
+  .header-content {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 35px;
+    text-align: right;
+  }
+
   .brand {
     color: white;
     font-family: Helveltica;
     font-size: 10px;
     letter-spacing: 3px;
-    margin-top: 35px;
-    margin-left: 165px;
     float: left;
   }
 
@@ -52,43 +65,50 @@
   }
 
   .inline-menu {
-    width: 50%;
+    width: 70%;
     color: white;
     font-size: 12px;
     float: right;
-    margin-top: 35px;
   }
 
   .inline-menu a {
     margin-left: 25px;
   }
+
+  .inline-menu a:first-child {
+    color: rgb(247, 171, 73);
+  }
 }
 
 /* 
   * Device = Most of the Smartphones Mobiles (Portrait)
-  * Screen = B/w 0px to 479px
+  * Screen = B/w 0px to 767px
 */
 @media (max-width: 767px) {
 
+  .header-content {
+    width: 310px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: right;
+  }
+
   .brand {
-    position: absolute;
     color: white;
     font-family: Helveltica;
-    font-size: 15px;
-    top: 50px;
+    font-size: 10px;
     letter-spacing: 2px;
-    left: 30px;
+    float: left;
   }
 
   .menu {
-    position: absolute;
     color: white;
-    font-size: 28px;
-    right: 34px;
-    top: 50px;
+    font-size: 22px;
+    float: right;
   }
 
   .inline-menu {
+    position: absolute;
     visibility: hidden;
   }
 }
